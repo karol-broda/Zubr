@@ -2806,26 +2806,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "postgres_editor"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "pgvector",
- "rustls",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
- "tauri-plugin-os",
- "tauri-plugin-store",
- "tokio",
- "tokio-postgres",
- "tokio-postgres-rustls",
- "uuid 0.8.2",
-]
-
-[[package]]
 name = "potential_utf"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5602,6 +5582,26 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.104",
+]
+
+[[package]]
+name = "zubr"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "pgvector",
+ "rustls",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-opener",
+ "tauri-plugin-os",
+ "tauri-plugin-store",
+ "tokio",
+ "tokio-postgres",
+ "tokio-postgres-rustls",
+ "uuid 0.8.2",
 ]
 
 [[package]]
