@@ -1,0 +1,36 @@
+title: '[idea]: '
+labels: ['enhancement', 'idea']
+body:
+  - type: markdown
+    attributes:
+      value: '_thanks for taking the time to suggest a new feature!_'
+  - type: textarea
+    id: summary
+    attributes:
+      label: '📝 summary'
+      description: 'what is your idea? provide a clear and concise description of the feature you are proposing.'
+      placeholder: 'e.g., i wish zubr had a built-in sql formatter to make my queries more readable.'
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: '🤔 what problem does this solve?'
+      description: 'why is this feature needed? what problem or frustration does it address for users?'
+      placeholder: 'e.g., my sql queries are often messy and hard to read, especially when sharing them with others.'
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: '✅ proposed solution'
+      description: 'how do you imagine this feature working? describe your ideal solution.'
+      placeholder: 'e.g., add a "format sql" button in the query editor that automatically formats the selected query text.'
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: '↔️ alternatives considered'
+      description: 'have you considered any alternative solutions or features?'
+      placeholder: 'e.g., i thought about integrating an external service, but a built-in feature would be much more convenient.' 

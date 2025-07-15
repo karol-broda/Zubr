@@ -1,0 +1,14 @@
+title: '[question]: '
+labels: ['question']
+body:
+  - type: markdown
+    attributes:
+      value: "_have a question? please provide as much context as possible._"
+  - type: textarea
+    id: question
+    attributes:
+      label: '💬 your question'
+      description: 'please ask your question here. be sure to include any relevant details or links.'
+      placeholder: 'e.g., how do i connect to a database that requires ssl?'
+    validations:
+      required: true 

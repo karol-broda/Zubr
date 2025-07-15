@@ -6,7 +6,7 @@ _thanks for helping improve zubr!_
 
 ## 📝 description
 
-> please provide a clear and concise summary of the changes. if this fixes an open issue, link it here.
+> what does this pr do? please provide a clear and concise summary of the changes. if it fixes an open issue, be sure to link it here so we can close it automatically.
 
 fixes: # (issue)
 
