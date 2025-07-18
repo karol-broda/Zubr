@@ -1,8 +1,8 @@
 [package]
 name = "zubr"
-version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+version = "0.1.3"
+description = "some database viewer"
+authors = ["Karol Broda <me@karolbroda.com>"]
 license = ""
 repository = ""
 edition = "2021"

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: '💬 general question'
+    url: https://github.com/karol-broda/zubr/discussions
+    about: 'have a question? start a discussion with the community.'
+  - name: '💡 feature request'
+    url: https://github.com/karol-broda/zubr/discussions/new?category=ideas
+    about: 'have a cool idea for a new feature? share it with us!' 

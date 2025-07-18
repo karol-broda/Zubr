@@ -1,0 +1,64 @@
+name: '🐞 bug report'
+description: "found something that's not working right? use this template to report a bug."
+title: '[bug]: '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: "_found something that's not working right? thanks for helping make zubr better!_"
+  - type: textarea
+    id: summary
+    attributes:
+      label: '📝 summary'
+      description: 'tell us what happened. provide a clear and concise description of the bug.'
+      placeholder: 'e.g., the app crashes when i click the "connect" button with invalid credentials.'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: '족 to reproduce'
+      description: 'how can we see the bug for ourselves? please list the steps to reproduce it.'
+      placeholder: |
+        1. go to '...'
+        2. click on '....'
+        3. see error '....'
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: '✅ expected behavior'
+      description: 'what did you think was going to happen?'
+      placeholder: 'e.g., an error message should appear without crashing the app.'
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: '📸 screenshots'
+      description: 'a picture is worth a thousand words. if you can, please add screenshots to help explain the problem.'
+  - type: dropdown
+    id: os
+    attributes:
+      label: '💻 operating system'
+      description: 'what operating system are you using?'
+      options:
+        - 'macOS'
+        - 'Windows'
+        - 'Linux'
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 'zubr version'
+      description: 'what version of zubr are you running?'
+      placeholder: 'e.g., 0.1.0'
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: '💡 additional context'
+      description: 'anything else to add? provide any other context about the problem here.' 

@@ -51,9 +51,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const [uri, setUri] = useState(
-    "postgres://postgres:localDevPassword@127.0.0.1:5432/bein-platform",
-  );
+  const [uri, setUri] = useState("");
   const [isConnected, setIsConnected] = useState(false);
   const [selectedSchema, setSelectedSchema] = useState<string | null>(null);
   const [selectedTable, setSelectedTable] = useState<string | null>(null);
